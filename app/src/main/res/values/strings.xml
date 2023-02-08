@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">KattaBozor-Test</string>
+    <string name="refresh">Обновить</string>
+    <string name="name">Название</string>
+    <string name="brand">Бренд</string>
+    <string name="category">Категория</string>
+    <string name="merchant">Торговец</string>
+    <string name="attributes">Характеристики</string>
+</resources>

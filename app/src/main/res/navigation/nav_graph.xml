@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/offersFragment">
+
+    <fragment
+        android:id="@+id/offersFragment"
+        android:name="uz.techie.kattabozor_test.ui.screens.offers.OffersFragment"
+        android:label="OffersFragment" >
+        <action
+            android:id="@+id/action_offersFragment_to_offerDetailFragment"
+            app:destination="@id/offerDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/offerDetailFragment"
+        android:name="uz.techie.kattabozor_test.ui.screens.offer_detail.OfferDetailFragment"
+        android:label="OfferDetailFragment" />
+</navigation>
